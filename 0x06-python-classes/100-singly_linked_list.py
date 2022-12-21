@@ -1,10 +1,14 @@
 #!/usr/bin/python3
 """Module for singly_linked_list 
 """
+
+
 class Node:
     """Class for a node
     """
     def __init__(self, data, next_node=None):
+        """ Method to initialize node
+        """
         self.data = data
         self.next_node = next_node
 
@@ -30,6 +34,8 @@ class Node:
 
 
 class SinglyLinkedList:
+    """ Class for SinglyLinkedList
+    """
     def __str__(self):
         rtn = ""
         ptr = self.__head

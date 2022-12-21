@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-"""Module for 2-sqaure 
+"""Module for 2-sqaure
 """
+
+
 class Square:
     """ A class that defines a square by its size
     """
