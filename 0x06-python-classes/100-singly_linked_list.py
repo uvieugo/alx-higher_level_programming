@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module for singly_linked_list 
+"""Module for singly_linked_list
 """
 
 
