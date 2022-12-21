@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Module for 1-sqaure 
+"""
 class Square:
     """Class Square that defines a square object
     """

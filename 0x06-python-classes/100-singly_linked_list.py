@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+"""Module for singly_linked_list 
+"""
 class Node:
+    """Class for a node
+    """
     def __init__(self, data, next_node=None):
         self.data = data
         self.next_node = next_node
