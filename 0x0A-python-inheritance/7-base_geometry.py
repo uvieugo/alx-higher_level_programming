@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """ Module for 7-base_geometry
 """
+
+
 class BaseGeometry:
     """ Class that defines the attributes of Geometric Shapes """
 

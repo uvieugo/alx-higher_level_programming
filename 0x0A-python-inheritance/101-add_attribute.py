@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """ Module for 101-add_attribute
 """
+
+
 def add_attribute(obj, name, value):
     """ Function that adds a new attribute to an object
 
