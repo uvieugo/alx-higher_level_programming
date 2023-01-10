@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+""" Module for 100-my_int
+"""
 class MyInt(int):
     """ Class that inherits from class int"""
 

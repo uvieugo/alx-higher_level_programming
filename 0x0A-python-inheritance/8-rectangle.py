@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+""" Module for 8-rectangle
+"""
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
