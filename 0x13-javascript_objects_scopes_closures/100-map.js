@@ -1,5 +1,8 @@
 #!/usr/bin/node
-class Rectangle {
-}
+const list = require('./100-data').list;
+const newList = list.map(function (num, index) {
+  return num * index;
+});
 
-module.exports = Rectangle;
+console.log(list);
+console.log(newList);

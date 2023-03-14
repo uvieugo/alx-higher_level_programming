@@ -1,5 +1,7 @@
 #!/usr/bin/node
-class Rectangle {
-}
+let narg = 0;
 
-module.exports = Rectangle;
+exports.logMe = function (item) {
+  console.log(narg + ': ' + item);
+  narg++;
+};
