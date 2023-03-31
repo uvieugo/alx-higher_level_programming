@@ -8,5 +8,5 @@ import sys
 
 
 if __name__ == "__main__":
-    html = get(argv[1])
+    html = requests.get(sys.argv[1])
     print(html.headers.get('X-Request-Id'))
