@@ -8,14 +8,9 @@ import sys
 
 
 if __name__ == "__main__":
-    data = {'q': ""}
 
-    try:
-        data['q'] = sys.argv[1]
-    except ValueError:
-        pass
-
-    r = requests.post('http://0.0.0.0:5000/search_user', data)
+    q = sys.argv[1] if len(sys.argv) > 1 else ""
+    r = requests.post('http://0.0.0.0:5000/search_user', data={'q': q})
 
     try:
         json_o = r.json()
