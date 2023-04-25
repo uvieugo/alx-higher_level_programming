@@ -22,4 +22,3 @@ request(url, function (error, response, body) {
   const charac = JSON.parse(body).characters;
   helpRequest(charac, 0);
 });
-
